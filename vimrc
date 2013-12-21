@@ -1,7 +1,11 @@
 set nocompatible
 let mapleader = " "
 
+" Foundations.
 source $HOME/.vim/bundles.vim
 source $HOME/.vim/options.vim
-source $HOME/.vim/search.vim
+
+" Customizations.
 source $HOME/.vim/colors.vim
+source $HOME/.vim/search.vim
+source $HOME/.vim/spacing.vim
