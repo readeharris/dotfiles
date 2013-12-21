@@ -1,0 +1,42 @@
+# Unix
+alias mkdir='mkdir -p'
+alias l='ls'
+alias ll='ls -al'
+
+# Navigation
+alias dev='cd ~/Development'
+alias dotfiles='cd ~/Development/dotfiles'
+
+# Bundler
+alias b='bundle'
+
+# Middleman
+alias mm='middleman'
+
+# Git - Checkouts
+alias gc='git checkout'
+alias gb='git checkout -b'
+
+# Git - Staging
+alias ga='git add -A'
+
+# Git - Diffs
+alias gd='git diff'
+alias gdc='git diff --cached'
+
+# Git - Committing
+alias gcm='git commit --allow-empty -m' # Allow inputting a message after the alias.
+alias gam='git commit --amend -Chead'   # Amend with most recent commit's message.
+
+# Git - Logs
+alias gl='git log --pretty=oneline --abbrev-commit --graph --decorate'
+
+# Git - Gravy
+# `g` does `git status` when not given a command.
+function g {
+  if [[ $# > 0 ]]; then
+    git $@
+  else
+    git status -sb
+  fi
+}
