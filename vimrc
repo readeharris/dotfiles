@@ -1,8 +1,7 @@
-set nocompatible  " Use Vim settings, not old Vi settings.
-
-" Set Leader to <Space>.
+set nocompatible
 let mapleader = " "
 
+source $HOME/.vim/bundles.vim
 source $HOME/.vim/options.vim
 source $HOME/.vim/search.vim
 source $HOME/.vim/colors.vim
