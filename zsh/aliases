@@ -9,6 +9,7 @@ alias dotfiles='cd ~/Development/dotfiles'
 
 # Bundler
 alias b='bundle'
+alias binstubs='bundle install --binstubs .bundle/bin'
 
 # Middleman
 alias mm='middleman'
