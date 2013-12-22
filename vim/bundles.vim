@@ -7,13 +7,14 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 " Bundles:
-Bundle 'wincent/Command-T'
+Bundle 'danro/rename.vim'
+Bundle 'jgdavey/tslime.vim'
 Bundle 'nanotech/jellybeans.vim'
 Bundle 'scrooloose/nerdtree'
-Bundle 'danro/rename.vim'
-Bundle 'tomtom/tcomment_vim'
-Bundle 'jgdavey/tslime.vim'
 Bundle 'slim-template/vim-slim'
+Bundle 'tomtom/tcomment_vim'
+Bundle 'tpope/vim-endwise'
+Bundle 'wincent/Command-T'
 
 " Required by Vundle.
 filetype plugin indent on
