@@ -3,14 +3,15 @@ filetype off
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
-" Bundles:
+" Use Vundle to manage Vundle.
 Bundle 'gmarik/vundle'
 
-" Color schemes:
+" Bundles:
 Bundle 'nanotech/jellybeans.vim'
-
-" Navigation:
 Bundle 'scrooloose/nerdtree'
+Bundle 'danro/rename.vim'
+Bundle 'tomtom/tcomment_vim'
+Bundle 'slim-template/vim-slim'
 
 " Required by Vundle.
 filetype plugin indent on
