@@ -11,6 +11,7 @@ Bundle 'nanotech/jellybeans.vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'danro/rename.vim'
 Bundle 'tomtom/tcomment_vim'
+Bundle 'jgdavey/tslime.vim'
 Bundle 'slim-template/vim-slim'
 
 " Required by Vundle.
