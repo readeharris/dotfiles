@@ -11,15 +11,8 @@ export CLICOLOR=1
 # Lots of history.
 export HISTSIZE=500
 
-# Initialize RVM.
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-
-# Add RVM to PATH for scripting
-PATH=$PATH:$HOME/.rvm/bin
-
 # Set the prompt.
 setopt PROMPT_SUBST # Enable prompt substitution.
 
 # Show current working directory.
 PROMPT=$'%{${fg[cyan]}%}%B%~%b '
-
