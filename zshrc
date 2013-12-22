@@ -1,6 +1,12 @@
 # Use Homebrew.
 export PATH=/usr/local/bin:$PATH
 
+# Use rbenv.
+if which rbenv > /dev/null; then
+  export RBENV_ROOT=/usr/local/var/rbenv # Integrate Homebrew.
+  eval "$(rbenv init -)"
+fi
+
 # Aliases
 source $HOME/.zsh/aliases
 
