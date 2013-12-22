@@ -1,3 +1,6 @@
+# Use Homebrew.
+export PATH=/usr/local/bin:$PATH
+
 # Aliases
 source $HOME/.zsh/aliases
 
