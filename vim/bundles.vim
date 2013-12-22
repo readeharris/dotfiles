@@ -7,6 +7,7 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 " Bundles:
+Bundle 'wincent/Command-T'
 Bundle 'nanotech/jellybeans.vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'danro/rename.vim'

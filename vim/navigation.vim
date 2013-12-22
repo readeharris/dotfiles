@@ -14,3 +14,6 @@ nmap fd :tabp<cr>
 
 " NERDTree for directory traversal.
 map <Leader>t :NERDTreeToggle<cr>
+
+" Command-T for file selection.
+map <Leader>f :CommandTFlush<cr>:CommandT<cr>
