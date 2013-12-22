@@ -9,5 +9,8 @@ Bundle 'gmarik/vundle'
 " Color schemes:
 Bundle 'nanotech/jellybeans.vim'
 
+" Navigation:
+Bundle 'scrooloose/nerdtree'
+
 " Required by Vundle.
 filetype plugin indent on

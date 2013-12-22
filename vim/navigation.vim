@@ -11,3 +11,6 @@ noremap <C-l> <C-w>l
 nmap fr :tabnew<cr>
 nmap fg :tabn<cr>
 nmap fd :tabp<cr>
+
+" NERDTree for directory traversal.
+map <Leader>t :NERDTreeToggle<cr>
