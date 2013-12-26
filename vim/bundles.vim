@@ -9,6 +9,7 @@ Bundle 'gmarik/vundle'
 " Bundles:
 Bundle 'danro/rename.vim'
 Bundle 'jgdavey/tslime.vim'
+Bundle 'kchmck/vim-coffee-script'
 Bundle 'nanotech/jellybeans.vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'slim-template/vim-slim'
