@@ -23,6 +23,9 @@ export CLICOLOR=1
 # Lots of history.
 export HISTSIZE=500
 
+# Use Command-R to search through history.
+bindkey '^R' history-incremental-search-backward
+
 # Set the prompt.
 setopt PROMPT_SUBST # Enable prompt substitution.
 
