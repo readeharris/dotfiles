@@ -1,3 +1,6 @@
+# Use Vim mode for command line.
+bindkey -v
+
 # Use Homebrew.
 export PATH=/usr/local/bin:$PATH
 
