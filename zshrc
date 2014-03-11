@@ -12,6 +12,7 @@ fi
 
 # Aliases
 source $HOME/.zsh/aliases
+source $HOME/.zsh/prompt
 
 # Initialize colors.
 autoload -U colors
@@ -25,9 +26,3 @@ export HISTSIZE=500
 
 # Use Command-R to search through history.
 bindkey '^R' history-incremental-search-backward
-
-# Set the prompt.
-setopt PROMPT_SUBST # Enable prompt substitution.
-
-# Show current working directory.
-PROMPT=$'%{${fg[cyan]}%}%B%~%b '
