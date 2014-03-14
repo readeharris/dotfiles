@@ -6,6 +6,7 @@ alias ll='ls -al'
 # Navigation
 alias dev='cd ~/Development'
 alias dotfiles='cd ~/Development/dotfiles'
+alias awp='cd ~/Development/awp'
 
 # Bundler
 alias b='bundle'
