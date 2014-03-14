@@ -8,6 +8,7 @@ Bundle 'gmarik/vundle'
 
 " Bundles:
 Bundle 'danro/rename.vim'
+Bundle 'dkprice/vim-easygrep'
 Bundle 'jgdavey/tslime.vim'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'mileszs/ack.vim'
