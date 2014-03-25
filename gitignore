@@ -6,3 +6,6 @@
 
 # Temp directories.
 tmp/
+
+# SASS
+.sass-cache/
