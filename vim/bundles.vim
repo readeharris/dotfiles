@@ -7,7 +7,9 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 " Bundles:
+Bundle 'cakebaker/scss-syntax.vim'
 Bundle 'danro/rename.vim'
+Bundle 'digitaltoad/vim-jade'
 Bundle 'dkprice/vim-easygrep'
 Bundle 'jgdavey/tslime.vim'
 Bundle 'kchmck/vim-coffee-script'

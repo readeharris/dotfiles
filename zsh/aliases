@@ -7,6 +7,7 @@ alias ll='ls -al'
 alias dev='cd ~/Development'
 alias dotfiles='cd ~/Development/dotfiles'
 alias awp='cd ~/Development/awp'
+alias colab='cd ~/Development/colab'
 
 # Bundler
 alias b='bundle'
@@ -42,3 +43,6 @@ function g {
     git status -sb
   fi
 }
+
+# Sinatra
+alias sinatra='ruby application.rb -o 0.0.0.0'

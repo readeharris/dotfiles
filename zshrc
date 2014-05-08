@@ -10,6 +10,10 @@ if which rbenv > /dev/null; then
   eval "$(rbenv init -)"
 fi
 
+# Use Android SDK
+export PATH=$PATH:~/Development/sdks/android/sdk/tools
+export PATH=$PATH:~/Development/sdks/android/sdk/platform-tools
+
 # Aliases
 source $HOME/.zsh/aliases
 source $HOME/.zsh/prompt

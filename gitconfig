@@ -25,11 +25,12 @@
 
 [core]
   excludesfile = ~/.gitignore
+  editor = /usr/local/bin/vim
 
 [push]
   # Push current branch even if it hasn"t been pushed before.
   default = current
 
 [user]
-  name = Lobo Volando
-  email = lobo@tendfire.com
+  name = Reade Harris
+  email = readeharris@gmail.com
