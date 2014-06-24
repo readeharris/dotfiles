@@ -9,3 +9,6 @@ set noswapfile
 " Add line numbers.
 set number
 set numberwidth=5
+
+" Don't fold Markdown.
+let g:vim_markdown_folding_disabled=1
