@@ -9,3 +9,6 @@ tmp/
 
 # SASS
 .sass-cache/
+
+# Node
+node_modules/
