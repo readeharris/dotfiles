@@ -6,15 +6,10 @@ alias ll='ls -al'
 # Navigation
 alias dev='cd ~/Development'
 alias dotfiles='cd ~/Development/dotfiles'
-alias awp='cd ~/Development/awp'
-alias colab='cd ~/Development/colab'
 
 # Bundler
 alias b='bundle'
 alias binstubs='bundle install --binstubs .bundle/bin'
-
-# Middleman
-alias mm='middleman'
 
 # Git - Checkouts
 alias gc='git checkout'
@@ -43,6 +38,3 @@ function g {
     git status -sb
   fi
 }
-
-# Sinatra
-alias sinatra='ruby application.rb -o 0.0.0.0'
